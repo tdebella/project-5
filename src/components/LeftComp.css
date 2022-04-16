@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-wrapper {
+  flex: 1;
+  margin-bottom: 50px;
+  width: 560px;
+}
+.text-wrapper h1 {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 900;
+}
+.text-wrapper p {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.9rem;
+}
+
+/* @media only screen and (min-width: 1000px) {
+  #intro {
+    background-image: url(/public/images/bg-intro-desktop.png);
+  }
+  .container {
+    flex-direction: row;
+  }
+  .left-col {
+    text-align: left;
+    padding-right: 50px;
+  }
+  .left-col h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .left-col p {
+    font-size: 1.1rem;
+  }
+  .right-col {
+    max-width: 500px;
+  }
+  .right-col .top-box p {
+    font-size: 1.1rem;
+  }
+  .right-col .top-box {
+    padding: 20px;
+  }
+  .right-col .form-container {
+    padding: 40px;
+  }
+  .right-col input,
+  .right-col input::placeholder {
+    font-size: 1.05rem;
+  }
+  .right-col .form-footer {
+    margin-top: 20px;
+    font-size: 0.7rem;
+  }
+} */
